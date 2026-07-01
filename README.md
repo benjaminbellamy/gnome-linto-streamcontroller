@@ -27,14 +27,31 @@ gnome-linto has a built-in control server. In the app, open the menu and choose
 **Stream Controller**, enable the server, and note the port and password (click
 the password to copy it). This plugin connects to that server over WebSocket.
 
+## Installation
+
+Clone this repository into StreamController's plugins directory. The target
+folder must be named `ai_linto_gnomelinto` (it must match the plugin id):
+
+```
+git clone https://github.com/benjaminbellamy/gnome-linto-streamcontroller.git \
+  ~/.var/app/com.core447.StreamController/data/plugins/ai_linto_gnomelinto
+```
+
+Then restart StreamController so it loads the plugin. No Python packages are
+required.
+
+To update later, pull inside that folder:
+
+```
+cd ~/.var/app/com.core447.StreamController/data/plugins/ai_linto_gnomelinto
+git pull
+```
+
 ## Setup
 
-1. Copy this folder into StreamController's plugins directory.
-2. Add the **LinTO Toggle** action to a button.
-3. In the action settings, set the **Host** (the machine running gnome-linto),
+1. Add the **LinTO Toggle** action to a button.
+2. In the action settings, set the **Host** (the machine running gnome-linto),
    **Port** (default 4466), and **Password** shown in the app.
-
-No Python packages are required.
 
 ## License
 
