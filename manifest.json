@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "thumbnail": "assets/thumbnail.png",
+    "thumbnail": "store/Thumbnail.png",
     "id": "ai_linto_gnomelinto",
     "name": "LinTO",
     "descriptions": {

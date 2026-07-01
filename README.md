@@ -1,5 +1,9 @@
 # LinTO plugin for Stream Controller
 
+<p align="center">
+  <img src="store/Thumbnail.png" width="640" alt="LinTO plugin for Stream Controller">
+</p>
+
 A [StreamController](https://github.com/StreamController/StreamController) plugin
 to control the [gnome-linto](https://github.com/benjaminbellamy/gnome-linto) app
 from a Stream Deck. It provides one action, **LinTO Toggle**:
