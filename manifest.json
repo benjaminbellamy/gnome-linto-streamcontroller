@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",
+    "thumbnail": "assets/thumbnail.png",
+    "id": "ai_linto_gnomelinto",
+    "name": "LinTO",
+    "descriptions": {
+        "en_US": "Start and pause gnome-linto streaming and show its status."
+    },
+    "short-descriptions": {
+        "en_US": "Control gnome-linto streaming"
+    },
+    "tags": ["Streaming", "Audio"],
+    "minimum-app-version": "1.0.0",
+    "app-version": "1.5.0-beta.14",
+    "description": "Start and pause gnome-linto streaming and show its status.",
+    "short-description": "Control gnome-linto streaming"
+}
